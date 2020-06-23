@@ -1,0 +1,79 @@
+.my-container {
+    margin: 50px auto;
+    align-content: center;
+    max-width: 1250px;
+    max-height: auto;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #BBB;
+}
+    
+ 
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+
+.mar {
+    margin-top: 20px;
+}
+
+
+
+
+.demo-bg{
+    background: #ffac0c;
+    margin-top: 20px;
+    }
+    .business-hours {
+    background: #222; 
+    padding: 40px 14px;
+    margin-top: -15px;
+    position: relative;
+    }
+    .business-hours:before{
+    content: '';
+    width: 23px;
+    height: 23px;
+    background: #111;
+    position: absolute;
+    top: 5px;
+    left: -12px;
+    transform: rotate(-45deg);
+    z-index: -1;
+    }
+    .business-hours .title {
+    font-size: 20px;
+    color: #BBB;
+    text-transform: uppercase;
+    padding-left: 5px;
+    border-left: 4px solid #ffac0c; 
+    }
+    .business-hours li {
+    color: #888;
+    line-height: 30px;
+    border-bottom: 1px solid #333; 
+    }
+    .business-hours li:last-child {
+    border-bottom: none; 
+    }
+    .business-hours .opening-hours li.today {
+    color: #ffac0c; 
+    }
+
+
+    .map-container{
+        overflow:hidden;
+        padding: bottom 0;;
+        position:relative;
+        height:0;
+        }
+        .map-container iframe{
+        left:0;
+        top:0;
+        height:300px;
+        width:100%;
+        position:absolute;
+        }
